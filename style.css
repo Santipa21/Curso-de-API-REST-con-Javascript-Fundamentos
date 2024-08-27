@@ -1,0 +1,57 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 25px;
+    width: 400px;
+    height: 400px;
+}
+
+article button {
+    margin: 25px;
+}
+
+article img {
+    padding-top: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+button {
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+button:hover {
+    background: black;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.randomContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    margin-top: 1rem;
+}
